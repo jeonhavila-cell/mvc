@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Priskilla | Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0f172a;color:#fff;line-height:1.6}
+header{background:linear-gradient(135deg,#2563eb,#7c3aed);padding:70px 20px;text-align:center}
+nav{display:flex;justify-content:center;gap:30px;padding:18px;background:#111827}
+nav a{color:#fff;text-decoration:none;font-weight:bold}
+section{max-width:1000px;margin:auto;padding:60px 20px}
+h2{color:#60a5fa;margin-bottom:20px}
+.about{display:grid;grid-template-columns:1fr 2fr;gap:30px;align-items:center}
+.profile{width:220px;height:220px;border-radius:50%;border:5px solid #60a5fa}
+.skills{display:flex;flex-wrap:wrap;gap:10px}
+.skill,.card{background:#1e293b;padding:12px 18px;border-radius:12px}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.btn{display:inline-block;background:#2563eb;color:#fff;padding:10px 20px;border-radius:8px;text-decoration:none;margin-top:12px}
+footer{background:#111827;text-align:center;padding:20px}
+@media(max-width:700px){.about{grid-template-columns:1fr;text-align:center}}
+</style>
+</head>
+<body>
+<header><h1>Priskilla</h1><p>B.Tech CSE Student | Audisankara College | Web Developer</p><a class="btn" href="#contact">Hire Me</a></header>
+<nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+<section id="about"><h2>About Me</h2><div class="about"><img src="profile.jpg" class="profile" alt="Profile"><div><p>Hello! I'm <b>Priskilla</b>, a B.Tech Computer Science (CSE) student at Audisankara College passionate about building websites and software. Replace this text with your own introduction.</p></div></div></section>
+<section id="skills"><h2>Skills</h2><div class="skills"><div class="skill">HTML</div><div class="skill">CSS</div><div class="skill">JavaScript</div><div class="skill">Python</div><div class="skill">Git</div><div class="skill">GitHub</div></div></section>
+<section id="projects"><h2>Projects</h2><div class="projects"><div class="card"><h3>Library Management System</h3><p>Python project for book management.</p></div><div class="card"><h3>Portfolio Website</h3><p>Responsive GitHub Pages portfolio.</p></div><div class="card"><h3>Student Database</h3><p>MySQL database project.</p></div></div></section>
+<section id="contact"><h2>Contact</h2><p>Email: youremail@example.com</p><p>GitHub: https://github.com/yourusername</p><p>LinkedIn: https://linkedin.com/in/yourprofile</p><a class="btn" href="resume.pdf">Download Resume</a></section>
+<footer>© 2026 Priskilla</footer>
+</body></html>
